@@ -46,3 +46,5 @@ qrenderdoc/3rdparty/pyside
 plugins-*/
 __pycache__
 copyapk.bat
+docs/sphinx_exts/sphinx_paramlinks/__init__.pyc
+docs/sphinx_exts/sphinx_paramlinks/sphinx_paramlinks.pyc
