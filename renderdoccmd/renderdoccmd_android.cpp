@@ -215,7 +215,7 @@ void main()
   float smoothdist = smoothstep(0.0, edgeWidth, clamp(logo(uv), 0.0, 1.0));
 
   // the green is #3bb779
-  gl_FragColor = mix(vec4(1.0), vec4(0.2314, 0.7176, 0.4745, 1.0), smoothdist);
+  gl_FragColor = mix(vec4(1.0), vec4(0, 0, 0, 1.0), smoothdist);
 }
 )";
 
