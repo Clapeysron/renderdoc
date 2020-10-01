@@ -169,7 +169,7 @@ enum
 #define RENDERDOC_ANDROID_LIBRARY "libVkLayer_GLES_RenderDoc.so"
 
 // This MUST match the package name in the build process that generates per-architecture packages
-#define RENDERDOC_ANDROID_PACKAGE_BASE "org.renderdoc.renderdoccmd"
+#define RENDERDOC_ANDROID_PACKAGE_BASE "org.qsm.rdc"
 
 /////////////////////////////////////////////////
 // Debugging features configuration

@@ -593,7 +593,7 @@ struct AndroidRemoteServer : public RemoteServer
       for(const rdcstr &line : lines)
       {
         // hide our own internal packages
-        if(strstr(line.c_str(), "package:org.renderdoc."))
+        if(strstr(line.c_str(), "package:org.qsm.rdc"))
           continue;
 
         if(!strncmp(line.c_str(), "package:", 8))

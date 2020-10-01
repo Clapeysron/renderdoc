@@ -63,7 +63,7 @@ find dist/Release{32,64}/ -iname '*.iobj' -exec rm '{}' \;
 # Copy in any android APKs that were built
 mkdir -p dist/Release64/plugins/android/
 if ls build-android-* > /dev/null; then
-	find build-android-* -iname 'org.renderdoc.renderdoccmd.*.apk' -exec cp '{}' dist/Release64/plugins/android ';'
+	find build-android-* -iname 'org.qsm.rdc.*.apk' -exec cp '{}' dist/Release64/plugins/android ';'
 else
 	echo "WARNING: No android builds found, expected build-android-arm32 and build-android-arm64";
 fi
